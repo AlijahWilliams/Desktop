@@ -1,0 +1,129 @@
+:root {
+    --clr-primary: #000000;
+    --clr-secondary: #ffffff;
+    --clr-third: #979490; 
+    --clr-fourth: #1d1912;
+    --clr-fifth: #868583;
+    --txt-clrp: #0000; 
+    --txt-clrs: #585046;
+    --ff-primary: 'Urbanist', sans-serif;
+    --ff-secondary: 'Raleway', sans-serif; 
+}
+
+h1 {
+    font-family: var(-ff-primary);
+    font-weight: 200;
+    font-size: 100pt;
+}
+
+body{
+    margin-top: 10px; 
+    background-color: var(--txrt-clrs);
+    padding: 0;
+    margin: 0;
+}
+
+.beginning{
+    align-self: center;
+    text-align: center;
+}
+    #nameTitle{
+        margin: 5px;
+    }
+
+    #nameDescription{
+        font-family: var(--ffprimary);
+        font-size: 20pt;
+        font-weight: 200;
+        color: var(--clr-primary);
+        margin-bottom: 50px;
+    }
+
+    .photoText{
+        display: flex;
+        margin-left: 75px; 
+        margin-right: 75px;
+        margin-bottom: 75px;
+    }
+
+
+
+    #self{
+        display: block;
+        width:50%;
+        float:left;
+    }
+
+    #selfText{
+        display: block;
+        width:50%;
+        float:right;
+        padding-top: 100px;
+        text-align: center;
+        font-size: 25pt;
+        font-family: var(--ff-secondary);
+        font-weight: 300;
+        padding: left 75px right 75px;
+        }
+    
+     .myself{
+        display: flex;
+        background-color: var(--clr-primary);
+    }
+
+    .myselfBox{
+        width: 500px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .myselfBox img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+.myselfBox h3{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 20pt; 
+    color: var(--clr-third);
+}
+
+.myselfBox p{
+    font-family: var(--ff-secondary); 
+    font-weight: 400;
+    color: var(--txt-clrs)
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote h3{
+    font-family: var(--ff-primary);
+    color:var(--clr-fifth);
+    font-size: 50pt;
+    padding-bottom: 15pt;
+}
+
+.quote h5{
+font-family: var(--ff-primary);
+color:var(--clr-fifth);
+font-size: 25pt;
+}
+
+    footer {
+        background: var(--clr-fifth);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-content{
+        color: var(--clr-third);
+    }
+
+    .more-info{
+        color:var(--clr-primary);
+    }
