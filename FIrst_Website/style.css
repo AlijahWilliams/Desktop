@@ -5,7 +5,7 @@
     --clr-fourth: #1d1912;
     --clr-fifth: #868583;
     --txt-clrp: #0000; 
-    --txt-clrs: #585046;
+    --txt-clrs: #f3f3f3;
     --ff-primary: 'Urbanist', sans-serif;
     --ff-secondary: 'Raleway', sans-serif; 
 }
@@ -64,6 +64,7 @@ body{
         font-family: var(--ff-secondary);
         font-weight: 300;
         padding: left 75px right 75px;
+        color: var(--clr-secondary);
         }
     
      .myself{
@@ -86,7 +87,7 @@ body{
     font-family: var(--ff-primary);
     font-weight: 500;
     font-size: 20pt; 
-    color: var(--clr-third);
+    color: var(--clr-secondary);
 }
 
 .myselfBox p{
@@ -103,14 +104,14 @@ body{
 
 .quote h3{
     font-family: var(--ff-primary);
-    color:var(--clr-fifth);
+    color:var(--clr-primary);
     font-size: 50pt;
     padding-bottom: 15pt;
 }
 
 .quote h5{
 font-family: var(--ff-primary);
-color:var(--clr-fifth);
+color:var(--clr-secondary);
 font-size: 25pt;
 }
 
@@ -121,7 +122,7 @@ font-size: 25pt;
     }
 
     .footer-content{
-        color: var(--clr-third);
+        color: var(--clr-secondary);
     }
 
     .more-info{
